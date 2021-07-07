@@ -22,8 +22,8 @@
  https://user-images.githubusercontent.com/40832333/124756803-4296b100-df03-11eb-8631-1424525036c4.png
 
  <hr>
-<ul>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Proofs</h3></p>
+<ul>
 <li><code>http://localhost:3333/proofs</code> <code>GET</code></li>
 <p><li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
 <code>
@@ -38,8 +38,10 @@
     }
 </code></p>
 <li><code>http://localhost:3333/proofs/delete/id</code> <code>DELETE</code></li>
-<p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
+</ul>
 <hr>
+<p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
+<ul>
 <li><code>http://localhost:3333/questions</code> <code>GET</code></li>	
 <p><li><code>http://localhost:3333/questions</code> <code>POST</code></li>
 <code>
@@ -57,8 +59,10 @@
 	"proof_id": "eef83684-5609-494d-9d3c-72cbe60e36a7"
 }</code></p>
 <li><code>http://localhost:3333/questions/delete/id</code> <code>DELETE</code></li>
+</ul>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Alternatives</h3></p>    
+<ul>
 <li><code>http://localhost:3333/alternative</code> <code>GET</code></li>
 <p><li><code>http://localhost:3333/alternative</code> <code>POST</code></li>
 <code>
@@ -73,6 +77,7 @@
 	"question_id":"1bc6c2e6-1228-4a2f-b70a-56394c971024"
 }</code></p>
 <li><code>http://localhost:3333/alternative/delete</code> <code>DELETE</code></li>
+</ul>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Regras da aplicação<g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji></p></h3>
 <ul>
