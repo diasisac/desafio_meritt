@@ -25,7 +25,8 @@
  </ul>
  <hr>
  <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Modelagem do banco</h3></p>
- ![image](https://user-images.githubusercontent.com/40832333/124756524-ecc20900-df02-11eb-8274-201fb240c2da.png)
+ [image]
+
  <hr>
 <ul>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Proofs</h3></p>
