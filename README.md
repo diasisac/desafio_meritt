@@ -26,7 +26,10 @@
  <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints</h3></p>
 <ul>
-<p><li><code>http://localhost:3333/desafio_mobile_saude/ibge/public/api/regiao</code></li></p>
+<p><li><code>http://localhost:3333/proofs</code></li></p>
+<p><li><code>http://localhost:3333/proofs</code></li></p>
+<p><li><code>http://localhost:3333/proofs/update</code></li></p>
+<p><li><code>http://localhost:3333/proofs/delete</code></li></p>
   <table class="table table-striped table-hover table-condensed table-bordered">
   <thead>
     <tr>
