@@ -30,6 +30,7 @@
 <code>http://localhost:3333/proofs</code> <code>POST</code>
 <code>http://localhost:3333/proofs/update</code> <code>PUT</code>
 <code>http://localhost:3333/proofs/delete</code> <code>DELETE</code>
+    
   <table class="table table-striped table-hover table-condensed table-bordered">
   <thead>
     <tr>
