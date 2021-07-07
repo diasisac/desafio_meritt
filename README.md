@@ -65,14 +65,19 @@
 <li><code>http://localhost:3333/questions/delete/id</code> <code>DELETE</code></li>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Alternatives</h3></p>    
-<p><li><code>http://localhost:3333/alternative</code> <code>GET</code></li>
+<li><code>http://localhost:3333/alternative</code> <code>GET</code></li>
+<p><li><code>http://localhost:3333/alternative</code> <code>POST</code></li>
 <code>
 {
 	"alternative":"D",
 	"question_id":"1bc6c2e6-1228-4a2f-b70a-56394c971024"
 }</code></p>
-<li><code>http://localhost:3333/alternative</code> <code>POST</code></li>
-<li><code>http://localhost:3333/alternative/update</code> <code>PUT</code></li>
+<p><li><code>http://localhost:3333/alternative/update</code> <code>PUT</code></li>
+<code>
+{
+	"alternative":"A",
+	"question_id":"1bc6c2e6-1228-4a2f-b70a-56394c971024"
+}</code></p>
 <li><code>http://localhost:3333/alternative/delete</code> <code>DELETE</code></li>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Regras da aplicação<g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji></p></h3>
