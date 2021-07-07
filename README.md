@@ -26,10 +26,10 @@
  <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints</h3></p>
 <ul>
-<li><code>http://localhost:3333/proofs</code><code>GET</code></li>
-<li><code>http://localhost:3333/proofs</code><code>POST</code></li>
-<li><code>http://localhost:3333/proofs/update</code><code>PUT</code></li>
-<li><code>http://localhost:3333/proofs/delete</code><code>DELETE</code></li>
+<li><code>http://localhost:3333/proofs</code> <code>GET</code></li>
+<li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
+<li><code>http://localhost:3333/proofs/update</code> <code>PUT</code></li>
+<li><code>http://localhost:3333/proofs/delete</code> <code>DELETE</code></li>
   <table class="table table-striped table-hover table-condensed table-bordered">
   <thead>
     <tr>
