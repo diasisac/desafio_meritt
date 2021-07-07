@@ -11,7 +11,7 @@
         Deverá ter o postgres instalado na máquina 
     </li>
     <li>
-        Deverá criar um banco local em sua máquina e configurar esse banco para ser sincronizado com a aplicação no arquivo ormconfig.json 
+        Deverá criar um banco local com credenciais de sua preferencia em sua máquina desde que esse banco esteja sincronizado com a aplicação no arquivo, para conectar o banco na sua aplicação necessário verificar no arquivo que está localizado na raiz do projeto <code> ormconfig.json </code>
     </li>
     <li>
 	Deverá criar as tabelas e suas estruturas com comando no terminal com caminho da raiz do projeto <code>yarn typeorm migration:run</code>
