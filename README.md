@@ -1,27 +1,21 @@
 <h1 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Parte do desenvolvedor</h1> 
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Instalação do Projeto</h3></p>
 <ol>
-<li>Clonar projeto na máquina local, rodar npm install e/ou yarn install</li>
+	<li>Clonar projeto na máquina local, dentro do caminho raiz do projeto é necessário rodar <code>npm install e/ou yarn install</code> pode ser no terminal do vscode ou 	por fora no prompt</li>
+	<li> Após clonagem e instalações de dependencias seu projeto está pronto para funcionar, porém antes de usar o comando <code>yarn dev</code> para rodar o projeto em sua máquina é necessário configurar o banco de dados, pule está etapa e vá para a segunda etapa que é a configuração do banco após configurado volte e execute o comando referenciado acima</li>
 </ol>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Configurações do banco<g-emoji class="g-emoji" alias="wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png">🔧</g-emoji></p></h3></p>
 <ul>
     <li>
-        DATABASE=meritt 
+        Deverá ter o postgres instalado na máquina 
     </li>
     <li>
-        USERNAME=meritt 
+        Deverá criar um banco local em sua máquina e configurar esse banco para ser sincronizado com a aplicação no arquivo ormconfig.json 
     </li>
     <li>
-        PASSWORD=root 
+	Deverá criar as tabelas e suas estruturas com comando no terminal com caminho da raiz do projeto <code>yarn typeorm migration:run</code>
     </li>
-    <li>
-        Charset=utf8mb4 
-    </li>
-    <li>
-        Collation=utf8mb4_general_ci 
-    </li>
-        
  </ul>
  <hr>
  <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Modelagem do banco</h3></p>
