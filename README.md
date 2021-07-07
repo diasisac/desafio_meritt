@@ -81,8 +81,10 @@
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Regras da aplicação<g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji></p></h3>
 <ul>
-<li>Inicialmente deve ser cadastrado uma prova pois sem uma prova não existe questão e sem questão não existe alterantiva</li>
+<li>Inicialmente deve ser cadastrado uma prova(table proofs) pois sem uma prova não existe questão(table question) e sem questão não existe alterantiva(table alternative)</li>
 <li>Após cadastrar a prova deve cadastrar uma questão e após cadastrar uma questão deve ser cadastrada a alternativa</li>
+<li>Para cadastrar uma question o campo proof_id deve ser uuid válido e existente na tabela de proofs</li>
+<li>Para cadastrar uma alternativa o campo question_id deve ser uuid válido e existente na tabela de questões</li>
 <li>Só é possível cadastrar uma questão se existir uma prova, pois a tabela de questões está relacionada com a prova 1:N</li>
 <li>Só é possível cadastrar uma alternativa se existir uma questão, pois a tabela de alternativa está relacionada com a questão 1:N</li>
 </ul>
