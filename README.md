@@ -46,8 +46,15 @@
 <li><code>http://localhost:3333/proofs/delete/id</code> <code>DELETE</code></li>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
 <hr>
-<li><code>http://localhost:3333/questions</code> <code>GET</code></li>
-<li><code>http://localhost:3333/questions</code> <code>POST</code></li>
+<li><code>http://localhost:3333/questions</code> <code>GET</code></li>	
+<p><li><code>http://localhost:3333/questions</code> <code>POST</code></li>
+<code>
+{
+	"number": "1",
+	"utterance":"utterance",
+	"proof_id": "eef83684-5609-494d-9d3c-72cbe60e36a7"
+}
+</code></p>
 <li><code>http://localhost:3333/questions/update</code> <code>PUT</code></li>
 <li><code>http://localhost:3333/questions/delete</code> <code>DELETE</code></li>
 <hr>
