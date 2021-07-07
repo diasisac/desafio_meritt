@@ -24,18 +24,18 @@
         
  </ul>
  <hr>
-<p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints</h3></p>
+<p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Proofs</h3></p>
 <ul>
 <li><code>http://localhost:3333/proofs</code> <code>GET</code></li>
 <li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
 <li><code>http://localhost:3333/proofs/update</code> <code>PUT</code></li>
 <li><code>http://localhost:3333/proofs/delete</code> <code>DELETE</code></li>
-    
+<p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
 <li><code>http://localhost:3333/questions</code> <code>GET</code></li>
 <li><code>http://localhost:3333/questions</code> <code>POST</code></li>
 <li><code>http://localhost:3333/questions/update</code> <code>PUT</code></li>
 <li><code>http://localhost:3333/questions/delete</code> <code>DELETE</code></li>
-    
+<p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Alternatives</h3></p>    
 <li><code>http://localhost:3333/alternative</code> <code>GET</code></li>
 <li><code>http://localhost:3333/alternative</code> <code>POST</code></li>
 <li><code>http://localhost:3333/alternative/update</code> <code>PUT</code></li>
