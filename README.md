@@ -37,13 +37,13 @@
 	"discipline": "math"
     }
 </code></p>
-<p><li><code>http://localhost:3333/proofs/update</code> <code>PUT</code></li>
+<p><li><code>http://localhost:3333/proofs/update/id</code> <code>PUT</code></li>
 <code>
     {
 	"discipline": "portuguese"
     }
 </code></p>
-<li><code>http://localhost:3333/proofs/delete</code> <code>DELETE</code></li>
+<li><code>http://localhost:3333/proofs/delete/id</code> <code>DELETE</code></li>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
 <hr>
 <li><code>http://localhost:3333/questions</code> <code>GET</code></li>
