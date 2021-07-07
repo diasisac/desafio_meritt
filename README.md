@@ -32,12 +32,17 @@
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Proofs</h3></p>
 <li><code>http://localhost:3333/proofs</code> <code>GET</code></li>
 <li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
-<code>
+<p><code>
     {
-	"discipline": "biologi"
+	"discipline": "math"
     }
-</code>
+</code></p>
 <li><code>http://localhost:3333/proofs/update</code> <code>PUT</code></li>
+<p><code>
+    {
+	"discipline": "portuguese"
+    }
+</code></p>
 <li><code>http://localhost:3333/proofs/delete</code> <code>DELETE</code></li>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
 <hr>
