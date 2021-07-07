@@ -31,14 +31,14 @@
 <ul>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Proofs</h3></p>
 <li><code>http://localhost:3333/proofs</code> <code>GET</code></li>
-<li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
-<p><code>
+<p><li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
+<code>
     {
 	"discipline": "math"
     }
 </code></p>
-<li><code>http://localhost:3333/proofs/update</code> <code>PUT</code></li>
-<p><code>
+<p><li><code>http://localhost:3333/proofs/update</code> <code>PUT</code></li>
+<code>
     {
 	"discipline": "portuguese"
     }
