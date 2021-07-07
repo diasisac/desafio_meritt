@@ -26,7 +26,7 @@
 <ul>
 <li><code>http://localhost:3333/proofs</code> <code>GET</code></li>
 <p><li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
-<p><span>Para criar uma prova você precisa somente de preenchar o campo disciplina, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo<spam></p>
+<p><span>Para criar uma prova você precisa somente de preenchar o campo disciplina, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo:<spam></p>
 <code>
     {
 	"discipline": "math"
@@ -40,13 +40,14 @@
     }
 </code></p>
 <li><code>http://localhost:3333/proofs/delete/id</code> <code>DELETE</code></li>
-<p><span>Para deletar uma prova você precisa passar um id válido após o segmento update na rota, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo<spam></p>
+<p><span>Para deletar uma prova você precisa passar um id válido após o segmento delete na rota, para deletar uma prova certifique-se que ela não está vinculada há alguma questão<spam></p>
 </ul>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
 <ul>
 <li><code>http://localhost:3333/questions</code> <code>GET</code></li>	
 <p><li><code>http://localhost:3333/questions</code> <code>POST</code></li>
+<p><span>Para criar uma questão você precisa preencher os campos number, utternance, proof_id sendo uuid válido e existenta na tabela proofs, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo:<spam></p>
 <code>
 {
 	"number": "1",
@@ -55,6 +56,7 @@
 }
 </code></p>
 <p><li><code>http://localhost:3333/questions/update/id</code> <code>PUT</code></li>
+<p><span>Para editar uma questão da prova você precisa alterar o conteúdo dos campos number, utterance e proof_id se necessário sendo uuid válido e existenta na tabela proofs, com a opção de entrada JSON, precisa passar um id válido após o segmento update na rota, segue entrada de dados no exemplo abaixo:<spam></p>
 <code>
 {
 	"number": "2",
@@ -62,6 +64,7 @@
 	"proof_id": "eef83684-5609-494d-9d3c-72cbe60e36a7"
 }</code></p>
 <li><code>http://localhost:3333/questions/delete/id</code> <code>DELETE</code></li>
+<p><span>Para deletar uma questão você precisa passar um id válido após o segmento delete na rota, para deletar uma questão certifique-se que ela não está vinculada há alguma alternativa<spam></p>
 </ul>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Alternatives</h3></p>    
