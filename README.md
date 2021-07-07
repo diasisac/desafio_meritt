@@ -42,35 +42,6 @@
 <li><code>http://localhost:3333/alternative</code> <code>POST</code></li>
 <li><code>http://localhost:3333/alternative/update</code> <code>PUT</code></li>
 <li><code>http://localhost:3333/alternative/delete</code> <code>DELETE</code></li>
-    
-  <table class="table table-striped table-hover table-condensed table-bordered">
-  <thead>
-    <tr>
-      <th colspan="4" class="text-center bg-ddd">PARÂMETROS DE ENTRADA</th>
-    </tr>
-    <tr>
-      <th width="15%">Parâmetro</th>
-      <th width="15%">Tipo</th>
-      <th width="15%">Obrigatoriedade</th>
-      <th>Descrição</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>id</td>
-      <td>inteiro</td>
-      <td>Opcional</td>
-      <td>Id da região</td>
-    </tr>
-    <tr>
-      <td>nome</td>
-      <td>inteiro</td>
-      <td>Opcional</td>
-      <td>Nome da região</td>
-    </tr>
-  </tbody>
-</table>
- </ul>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Regras da aplicação<g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji></p></h3>
 <ul>
