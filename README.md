@@ -31,6 +31,16 @@
 <li><code>http://localhost:3333/proofs/update</code> <code>PUT</code></li>
 <li><code>http://localhost:3333/proofs/delete</code> <code>DELETE</code></li>
     
+<li><code>http://localhost:3333/questions</code> <code>GET</code></li>
+<li><code>http://localhost:3333/questions</code> <code>POST</code></li>
+<li><code>http://localhost:3333/questions/update</code> <code>PUT</code></li>
+<li><code>http://localhost:3333/questions/delete</code> <code>DELETE</code></li>
+    
+<li><code>http://localhost:3333/alternative</code> <code>GET</code></li>
+<li><code>http://localhost:3333/alternative</code> <code>POST</code></li>
+<li><code>http://localhost:3333/alternative/update</code> <code>PUT</code></li>
+<li><code>http://localhost:3333/alternative/delete</code> <code>DELETE</code></li>
+    
   <table class="table table-striped table-hover table-condensed table-bordered">
   <thead>
     <tr>
