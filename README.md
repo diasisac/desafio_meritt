@@ -26,18 +26,21 @@
 <ul>
 <li><code>http://localhost:3333/proofs</code> <code>GET</code></li>
 <p><li><code>http://localhost:3333/proofs</code> <code>POST</code></li>
+<p><span>Para criar uma prova você precisa somente de preenchar o campo disciplina, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo<spam></p>
 <code>
     {
 	"discipline": "math"
     }
 </code></p>
 <p><li><code>http://localhost:3333/proofs/update/id</code> <code>PUT</code></li>
+<p><span>Para editar o nome da disciplina da prova você precisa alterar o conteúdo do campo disciplina, com a opção de entrada JSON, precisa passar um id válido após o segmento update na rota, segue entrada de dados no exemplo abaixo:<spam></p>
 <code>
     {
 	"discipline": "portuguese"
     }
 </code></p>
 <li><code>http://localhost:3333/proofs/delete/id</code> <code>DELETE</code></li>
+<p><span>Para deletar uma prova você precisa passar um id válido após o segmento update na rota, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo<spam></p>
 </ul>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Endpoints Questions</h3></p>
