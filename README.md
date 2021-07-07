@@ -47,7 +47,7 @@
 <ul>
 <li><code>http://localhost:3333/questions</code> <code>GET</code></li>	
 <p><li><code>http://localhost:3333/questions</code> <code>POST</code></li>
-<p><span>Para criar uma questão você precisa preencher os campos number, utternance, proof_id sendo uuid válido e existenta na tabela proofs, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo:<spam></p>
+<p><span>Para criar uma questão você precisa preencher os campos number, utternance, proof_id sendo uuid válido e existente na tabela proofs, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo:<spam></p>
 <code>
 {
 	"number": "1",
@@ -71,18 +71,21 @@
 <ul>
 <li><code>http://localhost:3333/alternative</code> <code>GET</code></li>
 <p><li><code>http://localhost:3333/alternative</code> <code>POST</code></li>
+<p><span>Para criar uma alternativa você precisa de preenchar o campo alternative, question_id sendo uuid válido e existente na tabela de questões, com a opção de entrada JSON, segue entrada de dados de exemplo abaixo:<spam></p>
 <code>
 {
 	"alternative":"D",
 	"question_id":"1bc6c2e6-1228-4a2f-b70a-56394c971024"
 }</code></p>
 <p><li><code>http://localhost:3333/alternative/update</code> <code>PUT</code></li>
+<p><span>Para editar uma alternativa você precisa alterar o conteúdo dos campos alternative e question_id sendo uuid válido e existente na tabela de questões, com a opção de entrada JSON, precisa passar um id válido após o segmento update na rota, segue entrada de dados no exemplo abaixo:<spam></p>
 <code>
 {
 	"alternative":"A",
 	"question_id":"1bc6c2e6-1228-4a2f-b70a-56394c971024"
 }</code></p>
 <li><code>http://localhost:3333/alternative/delete</code> <code>DELETE</code></li>
+<p><span>Para deletar uma alternativa você precisa passar um id válido após o segmento delete na rota, para deletar uma questão certifique-se que ela não está vinculada há alguma questão<spam></p>
 </ul>
 <hr>
 <p><h3 id="markdown-header-descricao-challenge-backend-mobile-saude-2020-2">Regras da aplicação<g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji></p></h3>
